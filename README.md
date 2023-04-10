@@ -7,7 +7,7 @@ Knight's Travails: play with a pawn and knight, and watch the knight find the qu
 <table>
   <td align="center"><b>Made using:</b></td>
   <td>
-    <img title="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="JavaScript"/>       
+    <img title="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>       
     <img title="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40" alt="JavaScript" />
     <img title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="40" height="40" alt="CSS3" />
     <img title="Vite" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" width="40" height="40" alt="Webpack" />
