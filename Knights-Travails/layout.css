@@ -1,0 +1,38 @@
+html,
+body,
+#navbar,
+#content,
+#footer {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  align-items: center;
+  background-color: #000000;
+}
+
+#navbar {
+  grid-row: 1;
+  background-color: #cd7f32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
