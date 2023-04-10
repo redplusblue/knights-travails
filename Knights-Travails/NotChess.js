@@ -5,6 +5,7 @@ import whiteKnight from "./public/WhiteKnight.svg";
 import blackKnight from "./public/BlackKnight.svg";
 import "./chessboard.css";
 import "./sidebar.css";
+import "./layout.css";
 
 export const notChess = () => {
     let knightPosition;
