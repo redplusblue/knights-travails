@@ -21,7 +21,8 @@ export const notChess = () => {
             for (let j = 0; j < 8; j++) {
                 const square = document.createElement("div");
                 square.classList.add("square");
-                square.id = `${i},${j}`;
+                // Cartesian coordinates
+                square.id = `${7 - i},${j}`;
                 if ((i + j) % 2 === 0) {
                     square.classList.add("white");
                 } else {
@@ -196,8 +197,10 @@ export const notChess = () => {
             // Convert the knight and pawn positions to integers
             knightPos = knightPos.map((pos) => parseInt(pos));
             pawnPos = pawnPos.map((pos) => parseInt(pos));
+            console.log(knightPos, pawnPos);
             if (knightPos[0] !== pawnPos[0] && knightPos[1] !== pawnPos[1]) {
                 path = knightMoves(knightPos, pawnPos);
+                console.log(path);
             }
             // If the knight can reach the pawn, highlight the path
             if (path) {

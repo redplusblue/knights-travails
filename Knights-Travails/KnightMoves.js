@@ -58,4 +58,3 @@ export function knightMoves(start, end) {
     // If we reach here, there is no valid path from start to end
     return null;
 }
-
