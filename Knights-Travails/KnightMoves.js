@@ -59,4 +59,3 @@ export function knightMoves(start, end) {
     return null;
 }
 
-knightMoves([4, 7], [7, 7]);
