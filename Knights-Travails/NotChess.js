@@ -115,7 +115,8 @@ export const notChess = () => {
                 !square.querySelector(".pawn") &&
                 !square.querySelector(".knight") &&
                 square.tagName !== "IMG" &&
-                checkPawns()
+                checkPawns() &&
+                checkKnights() === false
                 // Check if there are any pawns on the board
             ) {
                 // Create a new knight element
@@ -167,6 +168,12 @@ export const notChess = () => {
     const checkPawns = () => {
         const pawns = document.querySelectorAll(".pawn");
         return true ? pawns.length > 0 : false;
+    };
+
+    // Check if the board has knights
+    const checkKnights = () => {
+        const knights = document.querySelectorAll(".knight");
+        return true ? knights.length > 0 : false;
     };
 
     // Clear all board event listeners
